@@ -1,0 +1,8 @@
+2019-12-04 11:41:44.336 - appl_begin INIT_URL=http://192.168.172.54:8183/VentasIN-Simple/src-gen/Main.vxml|DEFAULTS=file:///app/GCTI/MCPNew/config/defaults-ng.vxml|ANI=sip:4386@192.168.172.54:50601|DNIS=sip:dialog@192.168.248.24:5070;gvp.debug=true;voicexml=http://192.168.172.54:8183/VentasIN-Simple%2Fsrc-gen%2FMain.vxml|PROTOCOLNAME=sip|PROTOCOLVERSION=2.0|CALLIDREF=3fb089766fae4f7697c240a92bd19d61@192.168.172.54|VXMLI_TYPE=NGI - 0
+2019-12-04 11:41:44.337 - wf_lookup http://192.168.172.54:8183/VentasIN-Simple/src-gen/Main.vxml - 0
+2019-12-04 11:41:44.337 - fetch_start document:http://192.168.172.54:8183/VentasIN-Simple/src-gen/Main.vxml - 0
+2019-12-04 11:41:44.337 - wf_lookup file:///app/GCTI/MCPNew/config/defaults-ng.vxml - 0
+2019-12-04 11:41:44.338 - fetch_start document:file:///app/GCTI/MCPNew/config/defaults-ng.vxml - 0
+2019-12-04 11:41:44.338 - wf_arrived s (file):file:///app/GCTI/MCPNew/config/defaults-ng.vxml - 0
+2019-12-04 11:41:44.338 - fetch_end Fail (HTTP error response 404):http://192.168.172.54:8183/VentasIN-Simple/src-gen/Main.vxml - 0
+2019-12-04 11:41:44.338 - appl_end  - 0

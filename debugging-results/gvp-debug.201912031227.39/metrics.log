@@ -1,0 +1,10 @@
+2019-12-03 12:27:44.194 - appl_begin INIT_URL=http://192.168.172.54:8183/VentasIN-Simple/src-gen/Main.vxml|DEFAULTS=file:///app/GCTI/MCPNew/config/defaults-ng.vxml|ANI=sip:4386@192.168.172.54:50601|DNIS=sip:dialog@192.168.248.24:5070;gvp.debug=true;voicexml=http://192.168.172.54:8183/VentasIN-Simple%2Fsrc-gen%2FMain.vxml|PROTOCOLNAME=sip|PROTOCOLVERSION=2.0|CALLIDREF=fff99f099e435231ffd374b183c5eeaa@192.168.172.54|VXMLI_TYPE=NGI - 5
+2019-12-03 12:27:44.195 - wf_lookup http://192.168.172.54:8183/VentasIN-Simple/src-gen/Main.vxml - 5
+2019-12-03 12:27:44.195 - fetch_start document:http://192.168.172.54:8183/VentasIN-Simple/src-gen/Main.vxml - 5
+2019-12-03 12:27:44.195 - wf_lookup file:///app/GCTI/MCPNew/config/defaults-ng.vxml - 5
+2019-12-03 12:27:44.195 - fetch_start document:file:///app/GCTI/MCPNew/config/defaults-ng.vxml - 5
+2019-12-03 12:27:44.195 - wf_arrived s (file):file:///app/GCTI/MCPNew/config/defaults-ng.vxml - 5
+2019-12-03 12:27:44.195 - wf_arrived s (direct):http://192.168.172.54:8183/VentasIN-Simple/src-gen/Main.vxml - 5
+2019-12-03 12:27:44.196 - wf_lookup http://192.168.172.54:8183/VentasIN-Simple/src/ComposerRoot.vxml - 5
+2019-12-03 12:27:44.196 - fetch_start document:http://192.168.172.54:8183/VentasIN-Simple/src/ComposerRoot.vxml - 5
+2019-12-03 12:27:44.196 - wf_arrived s (revalidated):http://192.168.172.54:8183/VentasIN-Simple/src/ComposerRoot.vxml - 5

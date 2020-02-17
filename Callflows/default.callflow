@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gvp="http://studio.genesyslab.com/gvp/" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:version="2.0">
+  <gvp:CallflowDiagram xmi:id="_Pr3tEIobEeG_nt9_QYQUcg" name="default" designedUsing="Composer 8.1.520.10">
+    <history>8.1.3</history>
+    <history>8.1.300.01</history>
+    <blocks xsi:type="gvp:EntryBlock" xmi:id="_4G0M8MlhEeKE2tP5OBlA8w" name="Entry1" starting="true" category="Entry" applicationRoot="../src/ComposerRoot.vxml">
+      <variables xmi:id="_4G0M8clhEeKE2tP5OBlA8w" name="APP_LANGUAGE" value="'en-US'" description="Application Language" type="System" />
+      <variables xmi:id="_4G0M8slhEeKE2tP5OBlA8w" name="APP_ASR_LANGUAGE" value="'en-US'" description="ASR Language" type="System" />
+      <variables xmi:id="_4G0M88lhEeKE2tP5OBlA8w" name="PREV_APP_LANGUAGE" value="'undefined'" description="Temporary Value of Previous Application Language" type="System" />
+      <variables xmi:id="_4G0M9MlhEeKE2tP5OBlA8w" name="PREV_APP_ASR_LANGUAGE" value="'undefined'" description="Temporary Value of Previous Application Language" type="System" />
+      <variables xmi:id="_4G0M9clhEeKE2tP5OBlA8w" name="GRAMMARFILEDIR" value="'../Resources/Grammars'" description="Grammar File Directory" type="System" />
+      <variables xmi:id="_4G0M9slhEeKE2tP5OBlA8w" name="VOXFILEDIR" value="'../Resources/Prompts'" description="Audio File Directory" type="System" />
+      <variables xmi:id="_4G0M98lhEeKE2tP5OBlA8w" name="SCRIPTSDIR" value="'../Scripts'" description="JavaScript Directory" type="System" />
+      <variables xmi:id="_4G0M-MlhEeKE2tP5OBlA8w" name="EnableReports" value="false" description="Reporting Flag" type="System" />
+      <variables xmi:id="_4G0M-clhEeKE2tP5OBlA8w" name="EnableSNMP" value="false" description="Flag for enabling SNMP Traps" type="System" />
+      <variables xmi:id="_4G0M-slhEeKE2tP5OBlA8w" name="CallUUID" value="session.connection.uuid" description="Universal ID" type="System" />
+      <variables xmi:id="_4G0M-8lhEeKE2tP5OBlA8w" name="GVPSessionID" value="session.genesys.userdata[&quot;GVP-Session-ID&quot;]" description="GVP Session ID" type="System" />
+      <variables xmi:id="_4G0M_MlhEeKE2tP5OBlA8w" name="DNIS" value="getDNIS()" description="DNIS associated with Called phone number" type="System" />
+      <variables xmi:id="_4G0M_clhEeKE2tP5OBlA8w" name="ANI" value="getANI()" description="ANI associated with the calling party." type="System" />
+      <variables xmi:id="_4G0M_slhEeKE2tP5OBlA8w" name="LAST_EVENT_NAME" value="'undefined'" description="Last event or error name" type="System" />
+      <variables xmi:id="_4G0M_8lhEeKE2tP5OBlA8w" name="LAST_EVENT_MSG" value="'undefined'" description="Last event or error details" type="System" />
+      <variables xmi:id="_4G0NAMlhEeKE2tP5OBlA8w" name="LAST_EVENT_URL" value="'undefined'" description="URL of the last event." type="System" />
+      <variables xmi:id="_4G0NAclhEeKE2tP5OBlA8w" name="LAST_EVENT_ELEMENT" value="'undefined'" description="Element name of the last event" type="System" />
+      <variables xmi:id="_4G0NAslhEeKE2tP5OBlA8w" name="LAST_EVENT_LINE" value="'undefined'" description="Line number of the last event" type="System" />
+      <variables xmi:id="_4G0NA8lhEeKE2tP5OBlA8w" name="EnableFCR" value="true" description="Flag for enabling Full Call Recording" type="System" />
+      <variables xmi:id="_4G0NBMlhEeKE2tP5OBlA8w" name="COMPOSER_WSSTUBBING" value="'0'" description="Flag to control WebServices Stubbing. '1' - ON" type="System" />
+      <variables xmi:id="_4G0NBclhEeKE2tP5OBlA8w" name="USE_LCASE_USERDATAKEY" value="0" description="Flag to control lowerCase lookup in UserData array. 1 - ON" type="System" />
+      <variables xmi:id="_4G0NBslhEeKE2tP5OBlA8w" name="APP_OPM" value="eval('('+session.connection.protocol.sip.requesturi['parameters']+')')" description="Operational Parameters Data Variable" type="System" />
+      <variables xmi:id="_4G0NB8lhEeKE2tP5OBlA8w" name="OCS_RecordURI" value="getCallflowRecordURI()" description="OCS Record URI" type="System" />
+      <variables xmi:id="_4G0NCMlhEeKE2tP5OBlA8w" name="OCS_URI" value="getCallflowOCSURI()" description="OCS URI" type="System" />
+      <variables xmi:id="_4G0NCclhEeKE2tP5OBlA8w" name="OCS_Record" value="getCallflowOCSRecord()" description="OCS Record" type="System" />
+    </blocks>
+    <blocks xsi:type="gvp:ExitBlock" xmi:id="_4MiacMlhEeKE2tP5OBlA8w" name="Exit1" terminating="true" category="Exit" returnMode="false" />
+    <links xsi:type="gvp:CallflowOutputLink" xmi:id="_44-psMlhEeKE2tP5OBlA8w" fromBlock="_4G0M8MlhEeKE2tP5OBlA8w" toBlock="_4MiacMlhEeKE2tP5OBlA8w" />
+    <namespaces xmi:id="_3rKLsMlhEeKE2tP5OBlA8w" name="gvp" value="http://www.genesyslab.com/2006/vxml21-extension" />
+    <systemProperties xmi:id="_3rKLsclhEeKE2tP5OBlA8w" name="RetainInputTypeVariableDefaultValue" value="false" />
+  </gvp:CallflowDiagram>
+  <notation:Diagram xmi:id="_Pr3tEYobEeG_nt9_QYQUcg" type="Studio" element="_Pr3tEIobEeG_nt9_QYQUcg" name="default.callflow" measurementUnit="Pixel">
+    <children xsi:type="notation:Shape" xmi:id="_4G0NCslhEeKE2tP5OBlA8w" type="1003" element="_4G0M8MlhEeKE2tP5OBlA8w">
+      <children xsi:type="notation:DecorationNode" xmi:id="_4G0NDMlhEeKE2tP5OBlA8w" type="6003" />
+      <children xsi:type="notation:DecorationNode" xmi:id="_4G0NDclhEeKE2tP5OBlA8w" type="6001" />
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_4G0NC8lhEeKE2tP5OBlA8w" x="400" y="100" />
+    </children>
+    <children xsi:type="notation:Shape" xmi:id="_4MiacclhEeKE2tP5OBlA8w" type="1004" element="_4MiacMlhEeKE2tP5OBlA8w">
+      <children xsi:type="notation:DecorationNode" xmi:id="_4Miac8lhEeKE2tP5OBlA8w" type="6002" />
+      <children xsi:type="notation:DecorationNode" xmi:id="_4MiadMlhEeKE2tP5OBlA8w" type="4005" />
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_4MiacslhEeKE2tP5OBlA8w" x="400" y="250" />
+    </children>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_Pr3tEoobEeG_nt9_QYQUcg" />
+    <edges xsi:type="notation:Connector" xmi:id="_44-psclhEeKE2tP5OBlA8w" type="3001" element="_44-psMlhEeKE2tP5OBlA8w" source="_4G0NCslhEeKE2tP5OBlA8w" target="_4MiacclhEeKE2tP5OBlA8w" roundedBendpointsRadius="10" routing="Rectilinear" closestDistance="true" lineColor="16711680">
+      <children xsi:type="notation:DecorationNode" xmi:id="_44-ptMlhEeKE2tP5OBlA8w" type="4074">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_44-ptclhEeKE2tP5OBlA8w" x="5" y="5" />
+      </children>
+      <styles xsi:type="notation:FontStyle" xmi:id="_44-psslhEeKE2tP5OBlA8w" />
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_44-ps8lhEeKE2tP5OBlA8w" points="[-1, 0, 0, -100]$[-1, 100, 0, 0]" />
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_44-ptslhEeKE2tP5OBlA8w" id="(0.5,1.0)" />
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_44-pt8lhEeKE2tP5OBlA8w" id="(0.4909090909090909,0.0)" />
+    </edges>
+  </notation:Diagram>
+</xmi:XMI>

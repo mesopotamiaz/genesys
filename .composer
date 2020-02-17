@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <revision action="project-creation" composer-version="8.1.430.03" project-name="VentasIN" timestamp="04/07/19 11:12:04 ART" os="win32" host="eth7 - Equipo014922.corp.cablevision.com.ar - 192.168.172.54" working-dir="C:/ComposerWorkspaceCV/CableVision" />
+  <revision action="user-revision" composer-version="8.1.430.03" project-name="VentasIN" timestamp="17/10/19 14:47:35 ART" os="win32" host="eth0 - Equipo014922.corp.cablevision.com.ar - 192.168.96.1;eth5 - Equipo014922.corp.cablevision.com.ar - 192.168.237.1;eth6 - Equipo014922.corp.cablevision.com.ar - 192.168.172.54" working-dir="C:/ComposerWorkspaceCV/CableVision" user-version="0.0.1" user="" comment="" />
+</project>
+

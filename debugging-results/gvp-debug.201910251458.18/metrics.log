@@ -1,0 +1,155 @@
+2019-10-25 14:58:21.762 - appl_begin INIT_URL=http://192.168.172.54:8183/VentasIN-20191025145804.372/src-gen/Main.vxml|DEFAULTS=file:///app/GCTI/MCPNew/config/defaults-ng.vxml|ANI=sip:4386@192.168.172.54:50601|DNIS=sip:dialog@192.168.248.24:5070;gvp.debug=true;voicexml=http://192.168.172.54:8183/VentasIN-20191025145804.372%2Fsrc-gen%2FMain.vxml|PROTOCOLNAME=sip|PROTOCOLVERSION=2.0|CALLIDREF=7459395b2755001fbd68c36d6120e080@192.168.172.54|VXMLI_TYPE=NGI - 5
+2019-10-25 14:58:21.762 - wf_lookup http://192.168.172.54:8183/VentasIN-20191025145804.372/src-gen/Main.vxml - 5
+2019-10-25 14:58:21.762 - fetch_start document:http://192.168.172.54:8183/VentasIN-20191025145804.372/src-gen/Main.vxml - 5
+2019-10-25 14:58:21.762 - wf_lookup file:///app/GCTI/MCPNew/config/defaults-ng.vxml - 5
+2019-10-25 14:58:21.763 - fetch_start document:file:///app/GCTI/MCPNew/config/defaults-ng.vxml - 5
+2019-10-25 14:58:21.763 - wf_arrived s (file):file:///app/GCTI/MCPNew/config/defaults-ng.vxml - 5
+2019-10-25 14:58:21.763 - wf_arrived s (direct):http://192.168.172.54:8183/VentasIN-20191025145804.372/src-gen/Main.vxml - 5
+2019-10-25 14:58:21.763 - wf_lookup http://192.168.172.54:8183/VentasIN-20191025145804.372/src/ComposerRoot.vxml - 5
+2019-10-25 14:58:21.763 - fetch_start document:http://192.168.172.54:8183/VentasIN-20191025145804.372/src/ComposerRoot.vxml - 5
+2019-10-25 14:58:21.763 - wf_arrived s (direct):http://192.168.172.54:8183/VentasIN-20191025145804.372/src/ComposerRoot.vxml - 5
+2019-10-25 14:58:28.340 - compile_done :http://192.168.172.54:8183/VentasIN-20191025145804.372/src-gen/Main.vxml - 5
+2019-10-25 14:58:28.340 - root_appl ../src/ComposerRoot.vxml - 5
+2019-10-25 14:58:28.936 - fetch_start script:http://192.168.172.54:8183/VentasIN-20191025145804.372/include/common.js - 85
+2019-10-25 14:58:28.936 - fetch_end Done (direct):http://192.168.172.54:8183/VentasIN-20191025145804.372/include/common.js - 85
+2019-10-25 14:58:28.936 - eval_script external:../include/common.js done - 85
+2019-10-25 14:58:28.936 - fetch_start script:http://192.168.172.54:8183/VentasIN-20191025145804.372/include/ctic.js - 85
+2019-10-25 14:58:28.937 - fetch_end Done (direct):http://192.168.172.54:8183/VentasIN-20191025145804.372/include/ctic.js - 85
+2019-10-25 14:58:28.937 - eval_script external:../include/ctic.js done - 85
+2019-10-25 14:58:28.937 - fetch_start script:http://192.168.172.54:8183/VentasIN-20191025145804.372/include/json.js - 85
+2019-10-25 14:58:28.937 - fetch_end Done (direct):http://192.168.172.54:8183/VentasIN-20191025145804.372/include/json.js - 85
+2019-10-25 14:58:28.937 - eval_script external:../include/json.js done - 85
+2019-10-25 14:58:28.937 - fetch_start script:http://192.168.172.54:8183/VentasIN-20191025145804.372/include/DataAccess.js - 85
+2019-10-25 14:58:28.938 - fetch_end Done (direct):http://192.168.172.54:8183/VentasIN-20191025145804.372/include/DataAccess.js - 85
+2019-10-25 14:58:28.938 - eval_script external:../include/DataAccess.js done - 85
+2019-10-25 14:58:28.938 - eval_script inline:2512 done - 85
+2019-10-25 14:58:28.938 - eval_expr <Script>expr{:AppState.VOXFILEDIR + '/PromptSwitch.js'}=../Resources/Prompts/PromptSwitch.js - 85
+2019-10-25 14:58:28.939 - fetch_start script:http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/PromptSwitch.js - 85
+2019-10-25 14:58:28.939 - fetch_end Done (direct):http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/PromptSwitch.js - 85
+2019-10-25 14:58:28.939 - eval_script external:../Resources/Prompts/PromptSwitch.js done - 85
+2019-10-25 14:58:28.939 - eval_expr <Script>expr{:AppState.VOXFILEDIR + '/es-AR/es-AR.js'}=../Resources/Prompts/es-AR/es-AR.js - 85
+2019-10-25 14:58:28.939 - fetch_start script:http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/es-AR/es-AR.js - 85
+2019-10-25 14:58:28.939 - fetch_end Done (direct):http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/es-AR/es-AR.js - 85
+2019-10-25 14:58:28.940 - eval_script external:../Resources/Prompts/es-AR/es-AR.js done - 85
+2019-10-25 14:58:28.940 - eval_script inline:21 done - 85
+2019-10-25 14:58:28.940 - eval_expr <Script>expr{:AppState.VOXFILEDIR + '/es-AR/customprompts.js'}=../Resources/Prompts/es-AR/customprompts.js - 85
+2019-10-25 14:58:28.940 - fetch_start script:http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/es-AR/customprompts.js - 85
+2019-10-25 14:58:28.940 - fetch_end Done (direct):http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/es-AR/customprompts.js - 85
+2019-10-25 14:58:28.940 - eval_script external:../Resources/Prompts/es-AR/customprompts.js done - 85
+2019-10-25 14:58:28.941 - form_select :__FORMITEM_NAME_$987$_:BLOCK - 85
+2019-10-25 14:58:29.029 - eval_expr <LogElement>expr{:'Running Main workflow.'}=Running Main workflow. - 87
+2019-10-25 14:58:29.029 - log Running Main workflow. - 87
+2019-10-25 14:58:29.266 - eval_expr <LogElement>expr{:'Code Generated by Composer: 8.1.430.03.'}=Code Generated by Composer: 8.1.430.03. - 88
+2019-10-25 14:58:29.266 - log Code Generated by Composer: 8.1.430.03. - 88
+2019-10-25 14:58:29.339 - eval_expr <LogElement>expr{:'Diagram created/upgraded by Composer: Composer 8.1.430.03.'}=Diagram created/upgraded by Composer: Composer 8.1.430.03. - 89
+2019-10-25 14:58:29.339 - log Diagram created/upgraded by Composer: Composer 8.1.430.03. - 89
+2019-10-25 14:58:29.395 - eval_expr <LogElement>expr{:'Project version: 8.1.430.03.'}=Project version: 8.1.430.03. - 90
+2019-10-25 14:58:29.396 - log Project version: 8.1.430.03. - 90
+2019-10-25 14:58:29.476 - eval_expr <LogElement>expr{:'Diagram version: 1.0 CreatedOn: .'}=Diagram version: 1.0 CreatedOn: . - 91
+2019-10-25 14:58:29.477 - log Diagram version: 1.0 CreatedOn: . - 91
+2019-10-25 14:58:29.532 - goto :#Start - 96
+2019-10-25 14:58:29.533 - form_enter :Start - 96
+2019-10-25 14:58:29.533 - form_select :Entry:BLOCK - 96
+2019-10-25 14:58:29.757 - goto :#SaludoBienvenida - 536
+2019-10-25 14:58:29.757 - form_enter :SaludoBienvenida - 536
+2019-10-25 14:58:29.757 - eval_expr <Script>expr{:AppState.VOXFILEDIR + '/PromptSwitch.js'}=../Resources/Prompts/PromptSwitch.js - 536
+2019-10-25 14:58:29.757 - fetch_start script:http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/PromptSwitch.js - 536
+2019-10-25 14:58:29.758 - fetch_end Done (revalidated):http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/PromptSwitch.js - 536
+2019-10-25 14:58:29.760 - eval_script external:../Resources/Prompts/PromptSwitch.js done - 536
+2019-10-25 14:58:29.760 - eval_expr <Script>expr{:AppState.VOXFILEDIR + '/' + 'es-AR' + '/' + 'es-AR' + '.js'}=../Resources/Prompts/es-AR/es-AR.js - 536
+2019-10-25 14:58:29.760 - fetch_start script:http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/es-AR/es-AR.js - 536
+2019-10-25 14:58:29.760 - fetch_end Done (revalidated):http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/es-AR/es-AR.js - 536
+2019-10-25 14:58:29.760 - eval_script external:../Resources/Prompts/es-AR/es-AR.js done - 536
+2019-10-25 14:58:29.760 - form_select :__FORMITEM_NAME_$1001$_:BLOCK - 536
+2019-10-25 14:58:29.780 - eval_script inline:220 done - 546
+2019-10-25 14:58:29.780 - form_select :SaludoBienvenidaP0:BLOCK - 546
+2019-10-25 14:58:29.839 - eval_expr <Prompt>expr{:AppState.APP_LANGUAGE}=es-AR - 551
+2019-10-25 14:58:29.839 - form_select :__FORMITEM_NAME_$1002$_:BLOCK - 551
+2019-10-25 14:58:29.899 - eval_script inline:15 done - 553
+2019-10-25 14:58:29.969 - goto :#ECMAScript1 - 559
+2019-10-25 14:58:29.969 - form_enter :ECMAScript1 - 559
+2019-10-25 14:58:29.969 - form_select :__FORMITEM_NAME_$1003$_:BLOCK - 559
+2019-10-25 14:58:30.027 - eval_script inline:83 done - 567
+2019-10-25 14:58:30.179 - goto :#MenuPPal - 123
+2019-10-25 14:58:30.179 - form_enter :MenuPPal - 123
+2019-10-25 14:58:30.179 - eval_expr <Script>expr{:AppState.VOXFILEDIR + '/PromptSwitch.js'}=../Resources/Prompts/PromptSwitch.js - 123
+2019-10-25 14:58:30.179 - fetch_start script:http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/PromptSwitch.js - 123
+2019-10-25 14:58:30.179 - fetch_end Done (revalidated):http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/PromptSwitch.js - 123
+2019-10-25 14:58:30.180 - eval_script external:../Resources/Prompts/PromptSwitch.js done - 123
+2019-10-25 14:58:30.180 - eval_expr <Script>expr{:AppState.VOXFILEDIR + '/' + 'es-AR' + '/' + 'es-AR' + '.js'}=../Resources/Prompts/es-AR/es-AR.js - 123
+2019-10-25 14:58:30.180 - fetch_start script:http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/es-AR/es-AR.js - 123
+2019-10-25 14:58:30.180 - fetch_end Done (revalidated):http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/es-AR/es-AR.js - 123
+2019-10-25 14:58:30.180 - eval_script external:../Resources/Prompts/es-AR/es-AR.js done - 123
+2019-10-25 14:58:30.180 - form_select :__FORMITEM_NAME_$989$_:BLOCK - 123
+2019-10-25 14:58:33.946 - eval_script inline:220 done - 133
+2019-10-25 14:58:33.947 - form_select :MenuPPalP0:BLOCK - 133
+2019-10-25 14:58:34.011 - eval_expr <Prompt>expr{:AppState.APP_LANGUAGE}=es-AR - 142
+2019-10-25 14:58:34.011 - form_select :__FORMITEM_NAME_$990$_:BLOCK - 142
+2019-10-25 14:58:34.066 - eval_script inline:15 done - 144
+2019-10-25 14:58:34.232 - goto :#IngresaMenuPpal - 469
+2019-10-25 14:58:34.232 - form_enter :IngresaMenuPpal - 469
+2019-10-25 14:58:34.232 - eval_expr <Script>expr{:AppState.VOXFILEDIR + '/PromptSwitch.js'}=../Resources/Prompts/PromptSwitch.js - 469
+2019-10-25 14:58:34.232 - fetch_start script:http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/PromptSwitch.js - 469
+2019-10-25 14:58:34.232 - fetch_end Done (revalidated):http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/PromptSwitch.js - 469
+2019-10-25 14:58:34.232 - eval_script external:../Resources/Prompts/PromptSwitch.js done - 469
+2019-10-25 14:58:34.232 - eval_expr <Script>expr{:AppState.VOXFILEDIR + '/' + 'es-AR' + '/' + 'es-AR' + '.js'}=../Resources/Prompts/es-AR/es-AR.js - 469
+2019-10-25 14:58:34.233 - fetch_start script:http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/es-AR/es-AR.js - 469
+2019-10-25 14:58:34.233 - fetch_end Done (revalidated):http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/es-AR/es-AR.js - 469
+2019-10-25 14:58:34.233 - eval_script external:../Resources/Prompts/es-AR/es-AR.js done - 469
+2019-10-25 14:58:34.233 - form_select :__FORMITEM_NAME_$999$_:BLOCK - 469
+2019-10-25 14:58:34.259 - eval_script inline:220 done - 480
+2019-10-25 14:58:34.259 - form_select :IngresaMenuPpalP0:BLOCK - 480
+2019-10-25 14:58:34.316 - eval_expr <Prompt>expr{:AppState.APP_LANGUAGE}=es-AR - 486
+2019-10-25 14:58:34.316 - form_select :IngresaMenuPpalField:FIELD - 486
+2019-10-25 14:58:50.696 - input_start :DTMF - 496
+2019-10-25 14:58:50.696 - prompt  - 496
+2019-10-25 14:58:50.696 - fetch_start audio:http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/es-AR/audios/Custom/V0.vox - 496
+2019-10-25 14:58:50.696 - fetch_end Done (direct):http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/es-AR/audios/Custom/V0.vox - 496
+2019-10-25 14:58:50.696 - prompt_play audio|http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/es-AR/audios/Custom/V0.vox - 496
+2019-10-25 14:58:50.696 - fetch_start audio:http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/es-AR/audios/Custom/V1.vox - 496
+2019-10-25 14:58:50.696 - fetch_end Done (direct):http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/es-AR/audios/Custom/V1.vox - 496
+2019-10-25 14:58:50.697 - prompt_play audio|http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/es-AR/audios/Custom/V1.vox - 496
+2019-10-25 14:58:50.697 - fetch_start audio:http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/es-AR/audios/Custom/P1.vox - 496
+2019-10-25 14:58:50.697 - fetch_end Done (direct):http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/es-AR/audios/Custom/P1.vox - 496
+2019-10-25 14:58:50.697 - prompt_play audio|http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/es-AR/audios/Custom/P1.vox - 496
+2019-10-25 14:58:50.697 - fetch_start audio:http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/es-AR/audios/Custom/V2.vox - 496
+2019-10-25 14:58:50.697 - fetch_end Done (direct):http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/es-AR/audios/Custom/V2.vox - 496
+2019-10-25 14:58:50.697 - prompt_play audio|http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/es-AR/audios/Custom/V2.vox - 496
+2019-10-25 14:58:50.697 - fetch_start audio:http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/es-AR/audios/Custom/P2.vox - 496
+2019-10-25 14:58:50.697 - fetch_end Done (direct):http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/es-AR/audios/Custom/P2.vox - 496
+2019-10-25 14:58:50.697 - prompt_play audio|http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/es-AR/audios/Custom/P2.vox - 496
+2019-10-25 14:58:50.697 - fetch_start audio:http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/es-AR/audios/Custom/V3.vox - 496
+2019-10-25 14:58:50.697 - fetch_end Done (direct):http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/es-AR/audios/Custom/V3.vox - 496
+2019-10-25 14:58:50.697 - prompt_play audio|http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/es-AR/audios/Custom/V3.vox - 496
+2019-10-25 14:58:50.698 - prompt_end done - 496
+2019-10-25 14:58:50.698 - input_end NO_INPUT||||| - 496
+2019-10-25 14:58:50.698 - event noinput:1| - 496
+2019-10-25 14:58:50.698 - event_handler_enter :noinput|http://192.168.172.54:8183/VentasIN-20191025145804.372/src-gen/Main.vxml#IngresaMenuPpal - 496
+2019-10-25 14:58:50.720 - eval_script inline:15 done - 498
+2019-10-25 14:58:50.777 - event com.genesyslab.composer.toomanynoinputs:1|exceeded the number of noinput retries - 504
+2019-10-25 14:58:50.777 - event_handler_exit :noinput - 504
+2019-10-25 14:58:50.777 - event_handler_enter :com.genesyslab.composer.toomanynoinputs|http://192.168.172.54:8183/VentasIN-20191025145804.372/src-gen/Main.vxml#IngresaMenuPpal - 504
+2019-10-25 14:58:50.839 - eval_script inline:15 done - 506
+2019-10-25 14:58:50.894 - goto :#trf_adqServ - 378
+2019-10-25 14:58:50.895 - event_handler_exit :com.genesyslab.composer.toomanynoinputs - 378
+2019-10-25 14:58:50.895 - form_enter :trf_adqServ - 378
+2019-10-25 14:58:50.895 - form_select :__FORMITEM_NAME_$993$_:BLOCK - 378
+2019-10-25 14:58:55.468 - goto :#Transfer1 - 390
+2019-10-25 14:58:55.468 - form_enter :Transfer1 - 390
+2019-10-25 14:58:55.468 - eval_expr <Script>expr{:AppState.VOXFILEDIR + '/PromptSwitch.js'}=../Resources/Prompts/PromptSwitch.js - 390
+2019-10-25 14:58:55.468 - fetch_start script:http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/PromptSwitch.js - 390
+2019-10-25 14:58:55.468 - fetch_end Done (revalidated):http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/PromptSwitch.js - 390
+2019-10-25 14:58:55.468 - eval_script external:../Resources/Prompts/PromptSwitch.js done - 390
+2019-10-25 14:58:55.468 - eval_expr <Script>expr{:AppState.VOXFILEDIR + '/' + 'es-AR' + '/' + 'es-AR' + '.js'}=../Resources/Prompts/es-AR/es-AR.js - 390
+2019-10-25 14:58:55.468 - fetch_start script:http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/es-AR/es-AR.js - 390
+2019-10-25 14:58:55.468 - fetch_end Done (revalidated):http://192.168.172.54:8183/VentasIN-20191025145804.372/Resources/Prompts/es-AR/es-AR.js - 390
+2019-10-25 14:58:55.468 - eval_script external:../Resources/Prompts/es-AR/es-AR.js done - 390
+2019-10-25 14:58:55.469 - form_select :__FORMITEM_NAME_$994$_:BLOCK - 390
+2019-10-25 14:58:57.467 - eval_script inline:220 done - 401
+2019-10-25 14:58:57.467 - form_select :Transfer1Call:TRANSFER - 401
+2019-10-25 14:59:29.524 - input_start :DTMF - 0
+2019-10-25 14:59:29.524 - transfer_start :1708 - 0
+2019-10-25 14:59:29.524 - transfer_end :network_busy - 0
+2019-10-25 14:59:29.524 - input_end TRANSFER_END||||| - 0
+2019-10-25 14:59:29.524 - filling :Transfer1.Transfer1Call:Transfer:network_busy - 0
+2019-10-25 14:59:29.524 - appl_end  - 0
